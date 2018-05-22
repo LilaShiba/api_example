@@ -1,0 +1,68 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+
+body {
+    height: 100%;
+    font-family: 'Marvel', sans-serif;
+    border: 1em;
+}
+
+h1 {
+    line-height: 1;
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+    font-size: -webkit-xxx-large;
+}
+h2 {
+   line-height: 1;
+   text-align: center;
+   font-family: 'Marvel', sans-serif;
+
+}
+
+ h3 {
+    line-height: 1;
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+
+    color:white;
+
+}
+
+p{
+
+    font-family: 'Marvel', sans-serif;
+    text-align: center;
+}
+/* footer */
+
+.footer {
+    margin-top: 55px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    font-family: 'Space Mono', monospace;
+    font-size: 1 em;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: turquoise;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}

@@ -1,0 +1,23 @@
+<section class='container col-sm-12'>
+  <h1 class='space1'> Solar Data from Gets14 </h1>
+
+
+ <h1><center><%=@start_time%> - <%=@end_time%></center></h1>
+
+<section class= 'container col-sm-12'>
+  <% @nasa_result.each do |info| %>
+     <% if info['gs_imageurl'] != "" %>
+        <center><img src="<%= info["gs_imageurl"] %>" /></center>
+      <%end%>
+  <%end%>
+</section>
+</section>
+<section class='container col-sm-12'>
+  <% @nasa_result.each do |info| %>
+    <% if info['gs_movieurl'] != "" %>
+      <center><video src ="<%= info['gs_movieurl']%>"controls width="720" height="640"/></center>
+      <%= info["event_type"] %>
+
+    <%end%>
+  <%end%>
+</section>
